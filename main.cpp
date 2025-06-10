@@ -19,7 +19,7 @@ int main() {
 	intro();
 	clock_t t;
 	size_t size_, var = 1;
-	size_t size_factor = 30000 * var;
+	size_t size_factor = 1500 * var;
 	size_t iter_count = 30;
 	size_ = size_factor;
 	iter_count = iter_count++;
@@ -69,7 +69,7 @@ int main() {
 
 	rand_QuickSortTime.SaveToFile("rand_QuickSortTime.txt");
 	merge_SortTime.SaveToFile("merge_SortTime.txt");
-	Heap_sortTime.SaveToFile("InsertSortTime.txt");
+	Heap_sortTime.SaveToFile("Heap_sortTime.txt");
 	Iterations.SaveToFile("Iterations.txt");
 	Size.SaveToFile("Size.txt");
 
